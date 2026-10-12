@@ -1,16 +1,46 @@
-# React + Vite
+# 🎨 Avatar Studio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A customizable avatar generator built with React, Tailwind CSS, and the DiceBear API. Create unique characters, personalize their appearance, experiment with colors, and download your avatar as an SVG.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+- Generate random avatars
+- Customize facial features, hairstyles, and clothing
+- Change colors and accessories
+- Preview avatars in real time
+- Download avatars as SVG
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the Oxlint configuration
+- React
+- JavaScript (ES6+)
+- Tailwind CSS
+- DiceBear HTTP API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## 🎭 How It Works
+
+Avatar Studio uses the DiceBear HTTP API to generate SVG avatars.
+
+The application builds a URL using a seed and customization options, then displays the generated avatar in an image element. Updating the options changes the URL and refreshes the preview.
+
+Example API URL:
+
+```text
+https://api.dicebear.com/10.x/avataaars/svg?seed=Abhavya&eyesVariant=happy&mouthVariant=smile&backgroundColor=b6e3f4
+```
+
+- **Seed:** Determines the generated character.
+- **Variants:** Customize facial features, hairstyles, and clothing.
+- **Colors:** Change the appearance using hexadecimal color values.
+- **Probability options:** Control the appearance of optional features.
+
+Avatar generation does not require a custom backend or API key.
+
+---
+
+## - Abhavya Gupta :)
