@@ -40,7 +40,3 @@ https://api.dicebear.com/10.x/avataaars/svg?seed=Abhavya&eyesVariant=happy&mouth
 - **Probability options:** Control the appearance of optional features.
 
 Avatar generation does not require a custom backend or API key.
-
----
-
-## - Abhavya Gupta :)
