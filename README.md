@@ -1,4 +1,4 @@
-# 🎨 Avatar Studio
+# Avatar Studio
 
 A customizable avatar generator built with React, Tailwind CSS, and the DiceBear API. Create unique characters, personalize their appearance, experiment with colors, and download your avatar as an SVG.
 
